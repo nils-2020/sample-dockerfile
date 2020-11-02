@@ -28,8 +28,8 @@ const startupMessage = `
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-	    fmt.Fprintf(w, "epunk stuff test yay")
-		fmt.Fprintf(w, "Hello! you've requested %s\n", r.URL.Path)
+
+		fmt.Fprintf(w, "Hello! you've requested %s\n . Krasser epunks stuff!11", r.URL.Path)
 
 	})
 
